@@ -42,7 +42,7 @@ namespace UI_Host_API
             string parameters = "TCP,35.198.72.42,root,3ng1n33r";
 
             string result = DllInstance.APICall(functionName, parameters);
-            ResultTextBox.Text += result+"\n";
+            printResult(result);
         }
 
         private void DisconnectButton_Click(object sender, EventArgs e)
@@ -51,14 +51,14 @@ namespace UI_Host_API
             string parameters = "";
 
             string result = DllInstance.APICall(functionName, parameters);
-            ResultTextBox.Text += result + "\n";
+            printResult(result);
         }
 
         private void IncrementCounterButton_Click(object sender, EventArgs e)
         {
             if (adapterCode_TextBox1.Text == "" || adapterType_TextBox1.Text == "")
             {
-                printResult("Please complete the required fields!");
+                printResult("Please complete all the required fields!");
                 return;
             }
 
@@ -73,7 +73,7 @@ namespace UI_Host_API
         {
             if (adapterCode_TextBox2.Text == "" || adapterType_TextBox2.Text == "" || temperatureTextBox.Text == "")
             {
-                printResult("Please complete the required fields!");
+                printResult("Please complete all the required fields!");
                 return;
             }
 
@@ -88,7 +88,7 @@ namespace UI_Host_API
         {
             if (adapterCode_TextBox3.Text == "" || adapterType_TextBox3.Text == "" || contactsTextBox.Text == "")
             {
-                printResult("Please complete the required fields!");
+                printResult("Please complete all the required fields!");
                 return;
             }
 

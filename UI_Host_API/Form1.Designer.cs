@@ -128,6 +128,7 @@ namespace UI_Host_API
             this.adapterCode_TextBox1.Name = "adapterCode_TextBox1";
             this.adapterCode_TextBox1.Size = new System.Drawing.Size(131, 20);
             this.adapterCode_TextBox1.TabIndex = 7;
+            this.adapterCode_TextBox1.Text = "104";
             // 
             // adapterType_TextBox1
             // 
@@ -135,6 +136,7 @@ namespace UI_Host_API
             this.adapterType_TextBox1.Name = "adapterType_TextBox1";
             this.adapterType_TextBox1.Size = new System.Drawing.Size(131, 20);
             this.adapterType_TextBox1.TabIndex = 8;
+            this.adapterType_TextBox1.Text = "FCT";
             // 
             // adapterCode_TextBox2
             // 
@@ -142,6 +144,7 @@ namespace UI_Host_API
             this.adapterCode_TextBox2.Name = "adapterCode_TextBox2";
             this.adapterCode_TextBox2.Size = new System.Drawing.Size(131, 20);
             this.adapterCode_TextBox2.TabIndex = 9;
+            this.adapterCode_TextBox2.Text = "104";
             // 
             // adapterCode_TextBox3
             // 
@@ -149,6 +152,7 @@ namespace UI_Host_API
             this.adapterCode_TextBox3.Name = "adapterCode_TextBox3";
             this.adapterCode_TextBox3.Size = new System.Drawing.Size(131, 20);
             this.adapterCode_TextBox3.TabIndex = 10;
+            this.adapterCode_TextBox3.Text = "104";
             // 
             // adapterType_TextBox2
             // 
@@ -156,6 +160,7 @@ namespace UI_Host_API
             this.adapterType_TextBox2.Name = "adapterType_TextBox2";
             this.adapterType_TextBox2.Size = new System.Drawing.Size(131, 20);
             this.adapterType_TextBox2.TabIndex = 12;
+            this.adapterType_TextBox2.Text = "FCT";
             // 
             // adapterType_TextBox3
             // 
@@ -163,6 +168,7 @@ namespace UI_Host_API
             this.adapterType_TextBox3.Name = "adapterType_TextBox3";
             this.adapterType_TextBox3.Size = new System.Drawing.Size(131, 20);
             this.adapterType_TextBox3.TabIndex = 13;
+            this.adapterType_TextBox3.Text = "FCT";
             // 
             // temperatureTextBox
             // 
@@ -170,6 +176,7 @@ namespace UI_Host_API
             this.temperatureTextBox.Name = "temperatureTextBox";
             this.temperatureTextBox.Size = new System.Drawing.Size(52, 20);
             this.temperatureTextBox.TabIndex = 14;
+            this.temperatureTextBox.Text = "25";
             // 
             // contactsTextBox
             // 
@@ -177,6 +184,7 @@ namespace UI_Host_API
             this.contactsTextBox.Name = "contactsTextBox";
             this.contactsTextBox.Size = new System.Drawing.Size(87, 20);
             this.contactsTextBox.TabIndex = 15;
+            this.contactsTextBox.Text = "80000";
             // 
             // label1
             // 
