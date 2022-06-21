@@ -18,7 +18,15 @@ namespace UI_Host_API
         public Form1()
         {
             InitializeComponent();
+#if DEBUG
+            ResultTextBox.ForeColor = Color.Red;
+            printResult("WARNING - YOU ARE USING DEBUG VERSION OF THIS TOOL!");
+#else
+            ResultTextBox.ForeColor = Color.Green;
+            printResult("YOU ARE USING THE RELEASE VERSION OF THIS TOOL!");
+#endif
         }
+
         private void printResult(string result)
         {
             ResultTextBox.Text += result + "\n";
@@ -28,6 +36,8 @@ namespace UI_Host_API
 
         private void ConnectButton_Click(object sender, EventArgs e)
         {
+            ResultTextBox.Text = "";
+            ResultTextBox.ForeColor = Color.Black;
             string functionName = "Connect";
             string parameters = "TCP,35.198.72.42,root,3ng1n33r";
 
