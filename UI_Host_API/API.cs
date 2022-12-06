@@ -16,8 +16,8 @@ namespace UI_Host_API
 
     class API
     {
-        const string PathToDebugDLL = @"d:\Users\vsomai\Documents\Personal\Licenta\Cod_sursa\BTBasic_CounterAPI\Debug\BTBasic_CounterAPI.dll";
-        const string PathToReleaseDLL = @"d:\Users\vsomai\Documents\Personal\Licenta\Cod_sursa\BTBasic_CounterAPI\Release\BTBasic_CounterAPI.dll";
+        const string PathToDebugDLL = @"..\..\BTBasic_CounterAPI_Debug\BTBasic_CounterAPI.dll";
+        const string PathToReleaseDLL = @"..\..\BTBasic_CounterAPI_Release\BTBasic_CounterAPI.dll";
 
         #if DEBUG
             [DllImport(PathToDebugDLL, CallingConvention = CallingConvention.Cdecl, EntryPoint = "BTBasic_DLL_Call", CharSet = CharSet.Ansi)]

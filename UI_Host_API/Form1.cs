@@ -39,7 +39,7 @@ namespace UI_Host_API
             ResultTextBox.Text = "";
             ResultTextBox.ForeColor = Color.Black;
             string functionName = "Connect";
-            string parameters = "TCP,35.198.72.42,root,3ng1n33r";
+            string parameters = "TCP,"+IP_Textbox.Text+","+DB_UserTextbox.Text+","+ DB_PasswordTextboxx.Text;
 
             string result = DllInstance.APICall(functionName, parameters);
             printResult(result);
